@@ -74,12 +74,12 @@ Please provide at least 3 arguments:
    - `1` don't use LCA (last common ancestor) to determine most likely taxnomic level, instead just use the best blast hit (not recommended). 
    - `0`: (default) LCA algorithm
  - **-refDB** 
+   - `GG` greengenes (only SSU available),  _default_
    - `SLV` Silva LSU (23/28S) or SSU (16/18S), 
-   - `GG` greengenes (only SSU available), 
    - `HITdb` (SSU, human gut specific), 
    - `PR2` (LSU spezialized on Ocean environmentas), 
    - `UNITE` (ITS fungi specific), 
-   - `beetax` (bee gut specific database and tax names). Decide which reference DB will be used for a similarity based taxonomy annotation, _default GG_
+   - `beetax` (bee gut specific database and tax names). Decide which reference DB will be used for a similarity based taxonomy annotation,
    - Databases can be combined, with the first having the highest prioirty. E.g. `PR2,SLV` would first use PR2 to assign OTUs and all unaasigned OTUs would be searched for with SILVA, given that `-amplicon_type LSU` was set.
  - **-tax4refDB** 
   in conjunction with a custom fasta file provided to argument `-refDB`, this file contains for each fasta entry in the reference DB a taxonomic annotation string, with the same number of taxonomic levels for each, tab separated.  
