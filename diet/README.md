@@ -20,7 +20,7 @@ This is a fraction of the metadata (we'll focus on Diet, where **CD** is Control
  | 15.SPF.CD | SPF      | CD   | SPF_CD        | 20.17057537 | 862.6286804       | 
  | 16.SPF.CD | SPF      | CD   | SPF_CD        | 65.58988185 | 1139.587569       | 
  
- The full metadata is [metadata.tsv](metadata.tsv).
+ The full metadata is [metadata.tab](metadata.tab).
 
 ### How many reads? How good?
 
