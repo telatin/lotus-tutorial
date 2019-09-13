@@ -14,11 +14,10 @@ The spreadsheet, usually referred to as _mapping file_, is the glue that links o
 
 A very generic metadata file can be like:
 
-#SampleID     |  Facility |Diet   |Facility_Diet   |Cholic_acid     Muricholic_acid
---------------|-------------------------------------------------------------------------------------------
+#SampleID     |  Facility |Diet   |Facility_Diet         |Cholic_acid     Muricholic_acid
+--------------|----------|--------|-------------|---------------|----------|----------------------------
 13xSPFxCD     |  SPF     |CD      |SPF_CD  |342.5568553     |1026.617105
 14xSPFxCD     |  SPF     |CD      |SPF_CD  |227.4375746     |1436.135551
 15xSPFxCD     |  SPF     |CD      |SPF_CD  |20.17057537     |862.6286804
-
 
 ## Running Lotus
