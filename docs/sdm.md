@@ -51,7 +51,7 @@ The mapping file is a TSV file containing these columns (in the first line, that
    * `-oneLineFastaFormat` _(0/1)_: write FASTQ (and quality) file sequence string in one line, opposed to default 80 characters per line.
    * `-o_dereplicate` _(file)_:  output file with dereplicated sequences (will write the _size_, number of starting sequences, in the sequence header)
    * `-dere_size_fmt` _(0/1)_:  (0) usearch format "size=X;" or (1) "_X"
-   * `-min_derep_copies` _(int)_:  only print seq if at least <int> copies present. Can be complex terms like "10:1,3:3", meaning at least 10x in 1 sample or 3x in 3 different samples.
+   * `-min_derep_copies` _(int)_:  only print seq if at least <int> copies present. Can be complex terms like "10:1,3:3", meaning at least 10x in 1 sample or 3x in 3 different samples. See also [this document](http://psbweb05.psb.ugent.be/lotus/images/Derep_options.pdf) for more information.
    * `-SyncReadPairs` _(T/F)_:  sdm can check, if read pairs occur in the same (correct) order in the input files, and correct this in case not (T).
    * `-maxReadsPerOutput` _(file)_:  number of filtered reads in output files. If more reads, a new file is created. Only works with `-o_fna`
    * `-mergedPairs` _(1/0)_:  1: paired sequences were merged externally (e.g. with FLASH), important for assumption that read quality is deteoriating.
@@ -59,6 +59,8 @@ The mapping file is a TSV file containing these columns (in the first line, that
    * `-i_qual_offset` _(0-64)_: FASTQ offset for quality values. Set this to '0' or 'auto' if you are unsure which fastq version is being used (default: read from sdm option file)
    * `-o_qual_offset` _(0-64)_: set quality offset for fastq outfile. Default: 33
    * `-ignore_IO_errors` _(0/1)_:  1 = Errors in fastq reads are ignored, with sdm trying to sync reads pairs after corrupted single reads (default: 0)
+ 
+
    
 ## Option files
 The command `sdm -help_options` will print a demo option file. The option files can contain comments (lines beginning with "#") and parameters. A small example is:
