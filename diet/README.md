@@ -2,14 +2,12 @@
 
 ## Introduction
 
-We are going to analyze raw data from a 16S experiment using the [lOTUs pipeline](http://psbweb05.psb.ugent.be/lotus) ([paper](https///microbiomejournal.biomedcentral.com/articles
-/10.1186/2049-2618-2-30)).
+We are going to analyze raw data from a 16S experiment using the [lOTUs pipeline](http://psbweb05.psb.ugent.be/lotus) (see the [paper](https///microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-30)).
 
 
 ## Dataset
 
-We'll use the 16S reads from the paper [Gut barrier impairment by high<E2><80><90>fat diet in mice depends on housing conditions](https///onlinelibrary.wiley.com/doi/full/10.1002/
-mnfr.201500775) (Mueller 2015). The raw data can be downloaded from [ENA](https///www.ebi.ac.uk/ena/data/view/PRJEB13041).
+We'll use the 16S reads from the paper [Gut barrier impairment by high<E2><80><90>fat diet in mice depends on housing conditions](https///onlinelibrary.wiley.com/doi/full/10.1002/mnfr.201500775) (Mueller 2015). The raw data can be downloaded from [ENA](https///www.ebi.ac.uk/ena/data/view/PRJEB13041).
 
 ### Metadata
 
@@ -28,10 +26,4 @@ To start we need to check the sequencing depth (how many reads per sample), and 
 
 A common tool to perform this analysis is [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/), that produces a full report for generic NGS output (mainly whole genome sequencing). For amplicons a lot of sections will not be very useful (e.g. overrepresented *k*-mers are totally expected!).
 
-The beginning of the report will include the total number of sequences. For this tutorial we subsampled approximately 5k reads for each sample.
 
-This is the QC profile for the first pair (_R1) of a sample of the dataset:
-{{ :r1.png?direct&400 |}}
-
-An this is it's companion pair (_R2):
-{{ :r2.png?direct&400 |}}
