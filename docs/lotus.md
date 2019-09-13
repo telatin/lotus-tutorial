@@ -66,7 +66,7 @@ Please provide at least 3 arguments:
    - `1` includes unclassified OTUs (i.e. no match in RDP/Blast database) in OTU and taxa abundance matrix calculations; 
    - `0` does not take these OTU's into account, _default_
  - **-simBasedTaxo** 
-   - `0` deavtivated (just use RDP);  _default_
+   - `0` default: use RDP
    - `1` or `blast`: use Blast; 
    - `2` or `lambda"`: use LAMBDA to search against a 16S reference database for taxonomic profiling of OTUs; 
    - `3` or `utax`: use UTAX with custom databases. 
