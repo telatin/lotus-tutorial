@@ -68,7 +68,7 @@ Please provide at least 3 arguments:
  - **-simBasedTaxo** 
    - `0` default: use RDP
    - `1` or `blast`: use Blast; 
-   - `2` or `lambda"`: use LAMBDA to search against a 16S reference database for taxonomic profiling of OTUs; 
+   - `2` or `lambda`: use LAMBDA to search against a 16S reference database for taxonomic profiling of OTUs; 
    - `3` or `utax`: use UTAX with custom databases. 
  - **-useBestBlastHitOnly** 
    - `1` don't use LCA (last common ancestor) to determine most likely taxnomic level, instead just use the best blast hit (not recommended). 
