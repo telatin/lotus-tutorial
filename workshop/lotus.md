@@ -12,12 +12,20 @@ The spreadsheet, usually referred to as _mapping file_, is the glue that links o
 
 ## Preparing a mapping file
 
-A very generic metadata file can be like:
+A very _generic metadata_ file can be a simple tab-separated text file with this content:
 
-#SampleID     |  Facility |Diet   |Facility_Diet         |Cholic_acid     Muricholic_acid
---------------|----------|--------|-------------|---------------|----------|----------------------------
-13xSPFxCD     |  SPF     |CD      |SPF_CD  |342.5568553     |1026.617105
-14xSPFxCD     |  SPF     |CD      |SPF_CD  |227.4375746     |1436.135551
-15xSPFxCD     |  SPF     |CD      |SPF_CD  |20.17057537     |862.6286804
+|#SampleID |  Facility |Diet   |Fac_Diet |Cholic_acid  |Muricholic_acid |
+|----------|----------|--------|---------|-------------|----------|
+|13xSPFxCD  |  SPF     |CD      |SPF_CD   |342.5568553  |1026.617105 |
+|14xSPFxCD  |  SPF     |CD      |SPF_CD   |227.437574   |1436.135551 |
+|15xSPFxCD  |  SPF     |CD      |SPF_CD   |20.17057537  |862.6286804 |
+
+What is missing from this generic metadata file to be a _mapping file_, is the path to the reads (i.e. their filename and relative position). In Lotus the required column is called **fastqFile**.
 
 ## Running Lotus
+
+To run Lotus (see [the full documentation](../docs/lotus.md)) you need at least:
+```
+lotus.pl -i INPUT_DIR -o OUTPUT_DIR -m MAPPING_FILE [-c CONFIGURATION_FILE]
+```
+
