@@ -14,3 +14,10 @@ bl12	AGCACTGTAG	CCGTCAATTCMTTTRAGT	Anh.1.fna	Anh.1.qua
 ```
 
 As you can see, the dataset has the typical 454 format of sequences in FASTA format (.fna) and quality scores in a separate file (.qual).
+
+## Demultiplexing with sdm
+
+The folder contains both the [mapping file](../datasets/454/map.txt) and a demo [454 option](../datasets/454/454_sdm.txt) file for [sdm](../docs/sdm.md).
+
+1. Perform the demultiplexing using `sdm`
+1. Try editing the 454_sdm.txt chaging the stringecy of barcode (i.e. errors allowed): can you rescue more sequences?
