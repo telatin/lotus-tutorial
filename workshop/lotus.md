@@ -29,3 +29,25 @@ To run Lotus (see [the full documentation](../docs/lotus.md)) you need at least:
 lotus.pl -i INPUT_DIR -o OUTPUT_DIR -m MAPPING_FILE [-c CONFIGURATION_FILE]
 ```
 
+## Customizing the parameters
+
+1. Try changing the default clustering algorithm from USEARCH to swarm
+1. Try using a [custom database](../workshop/customdb.md) (beeTax) for instead of the default (GreenGenes)
+
+## Tuning parameters almost towards ASV (Amplicon Sequence Variant) 
+
+Now rerun Lotus, but try to optimize for a lot of small, hard defined OTUs 
+(that might correspond to something like strain level). 
+
+ * Which clustering algorithm might be suitable? 
+ * Which clustering cutoffs make sense? 
+
+## "I feel lucky" taxonomic assignments
+
+Now we want to assign every OTU sequence to a database target – and we don’t care about false positive assignments! 
+Of course this is per se wrong, but in some cases you just want to know what the best hit would be, 
+even if it is only 90% similar to your OTU sequence. 
+
+[LotuS](../docs/lotus.md) provides several options that allow tweaking towards more lenient assignments. 
+Find all options related to this and try to create the most extreme case with these options, 
+by reassigning the taxonomy again as in the previous step.
