@@ -42,7 +42,7 @@ When you run Lotus:
    * hiera_blast.txt contains the classification
 
 These can be used as input file for molecular ecology analysis, like the multi dimensional scale plot (for beta diversity):
-![mds](../img/mds.png){:height="50%" width="50%"}
+[example mds](../img/mds.png)
 
 ## Going beyond the basics
 ### Customizing the parameters
