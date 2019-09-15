@@ -10,6 +10,8 @@ An example is the demultiplexing of a sequencing run using a set of molecular ba
 
 The spreadsheet, usually referred to as _mapping file_, is the glue that links our reads to relevant information (e.g. a sample name, the treatment, ...)
 
+For this tutorial Lotus was already installed in the ~/lotus_pipeline/ directory.
+
 ## Preparing a mapping file
 
 A very _generic metadata_ file can be a simple tab-separated text file with this content:
@@ -28,6 +30,9 @@ To run Lotus (see [the full documentation](../docs/lotus.md)) you need at least:
 ```
 lotus.pl -i INPUT_DIR -o OUTPUT_DIR -m MAPPING_FILE [-c CONFIGURATION_FILE]
 ```
+
+ * You can find a generic Lotus configuration file inside the Lotus installation directory (it's called `lOTUs.cfg`).
+ * Lotus will begin using [sdm](../docs/sdm.md) for the demultiplexing, quality filtering and dereplication, hence you can supply a `-s sdm_config.txt` file to customize its behaviour. Note that, again, you'll find generic sdm files (for 454, MiSeq, HiSeq) in the Lotus installation directory.
 
 ## Customizing the parameters
 
