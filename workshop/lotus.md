@@ -34,12 +34,23 @@ lotus.pl -i INPUT_DIR -o OUTPUT_DIR -m MAPPING_FILE [-c CONFIGURATION_FILE]
  * You can find a generic Lotus configuration file inside the Lotus installation directory (it's called `lOTUs.cfg`).
  * Lotus will begin using [sdm](../docs/sdm.md) for the demultiplexing, quality filtering and dereplication, hence you can supply a `-s sdm_config.txt` file to customize its behaviour. Note that, again, you'll find generic sdm files (for 454, MiSeq, HiSeq) in the Lotus installation directory.
 
-## Customizing the parameters
+When you run Lotus:
+ * Check the log files in the ./LotuSLogS subdirectory in the output folder
+ * Check of course the real output, in particular:
+   * OTU.txt is the OTU table
+   * otus.fa is the list of detected OTUs
+   * hiera_blast.txt contains the classification
+
+These can be used as input file for molecular ecology analysis, like the multi dimensional scale plot (for beta diversity):
+![mds](../img/mds.png)
+
+## Going beyond the basics
+### Customizing the parameters
 
 1. Try changing the default clustering algorithm from USEARCH to swarm
 1. Try using a [custom database](../workshop/customdb.md) (beeTax) for instead of the default (GreenGenes)
 
-## Tuning parameters almost towards ASV (Amplicon Sequence Variant) 
+### Tuning parameters almost towards ASV (Amplicon Sequence Variant) 
 
 Now rerun Lotus, but try to optimize for a lot of small, hard defined OTUs 
 (that might correspond to something like strain level). 
@@ -47,7 +58,7 @@ Now rerun Lotus, but try to optimize for a lot of small, hard defined OTUs
  * Which clustering algorithm might be suitable? 
  * Which clustering cutoffs make sense? 
 
-## "I feel lucky" taxonomic assignments
+### "I feel lucky" taxonomic assignments
 
 Now we want to assign every OTU sequence to a database target – and we don’t care about false positive assignments! 
 Of course this is per se wrong, but in some cases you just want to know what the best hit would be, 
