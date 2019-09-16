@@ -6,7 +6,7 @@ This repository contains some documentation and hands out notes (see below), as 
 
 This workshop focuses on a common triad of tasks: dealing with different input formats/technologies, propagating and making use of metadata (mapping files), and performing the 16S analysis itself.
 
-![topics](trio.png)
+![topics](workshop/trio.png)
 
 ## 16S analysis with Lotus
 
@@ -24,3 +24,4 @@ This workshop focuses on a common triad of tasks: dealing with different input f
 ##  Documentation
  * :page_facing_up: [Lotus manual](docs/lotus.md)
  * :page_facing_up: [sdm (simple demultiplexer) manual](docs/sdm.md)
+ * :movie_camera: [slides](workshop/slides.pdf)
