@@ -1,5 +1,6 @@
 # Lotus 1.6 documentation
 
+:bulb: In the workshop we'll assume that Lotus was installed in you home directory in `~/lotus_pipeline`.
 ### Main parameters
 
 Please provide at least 3 arguments:
