@@ -105,3 +105,11 @@ sdm -i forward.fq,reverse.fq -i_MID_fastq barcodes.fq -paired 2 \
   -o_demultiplex reads/ -map mapping.txt \
   -log demultiplex -options miseq.txt
 ```
+
+## Getting sdm
+
+**sdm** is bundled with Lotus, but you can now easily get it with Conda:
+   
+``` 
+conda install -c bioconda sdm
+```
