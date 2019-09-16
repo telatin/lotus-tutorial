@@ -24,4 +24,4 @@ This workshop focuses on a common triad of tasks: dealing with different input f
 ##  Documentation
  * :page_facing_up: [Lotus manual](docs/lotus.md)
  * :page_facing_up: [sdm (simple demultiplexer) manual](docs/sdm.md)
- * :movie_camera: [slides](workshop/slides.pdf)
+ * :movie_camera: [slides](docs/slides.pdf)
