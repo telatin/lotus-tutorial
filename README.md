@@ -14,6 +14,6 @@
 #### :sunglasses: Becoming a pro
  * [Create a custom taxonomical database](workshop/customdb.md)
 
-## :page_facing_up: Documentation
- * [Lotus manual](docs/lotus.md)
- * [sdm (simple demultiplexer) manual](docs/sdm.md)
+##  Documentation
+ * :page_facing_up: [Lotus manual](docs/lotus.md)
+ * :page_facing_up: [sdm (simple demultiplexer) manual](docs/sdm.md)
