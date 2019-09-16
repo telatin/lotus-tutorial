@@ -2,6 +2,8 @@
 
 [Lotus](http://psbweb05.psb.ugent.be/lotus/) is a suite of tools to automatically end efficiently analyze 16S datasets.
 
+This repository contains some documentation and hands out notes (see below), as well as three datasets to practice with (in the [datasets](datasets/) subdirectory.
+
 ## 16S analysis with Lotus
 
 #### :baby: First steps: running lotus
