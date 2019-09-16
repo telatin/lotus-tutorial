@@ -21,3 +21,5 @@ The folder contains both the [mapping file](../datasets/454/map.txt) and a demo 
 
 1. Perform the demultiplexing using `sdm`
 1. Try editing the 454_sdm.txt chaging the stringecy of barcode (i.e. errors allowed): can you rescue more sequences?
+
+ :bulb: When demultiplexing you are about to create a list of files starting from a single one, thus you'll need to use the `-o_demultiplex {DIR}` parameter (the output directory where all the demultiplexed files will be placed.
