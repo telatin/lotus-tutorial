@@ -13,6 +13,7 @@ An example is the demultiplexing of a sequencing run using a set of molecular ba
 The spreadsheet, usually referred to as _mapping file_, is the glue that links our reads to relevant information (e.g. a sample name, the treatment, ...)
 
 :bulb: For this tutorial Lotus was already installed in the ~/lotus_pipeline/ directory.
+
 :floppy_disk: The input dataset that we'll use first is the **diet** dataset: a set of 8 samples from mice gut microbiome, where 4 mice where fed with control diet (CD) and 4 were fed with High Fat Diet (HFD).
 
 ## Preparing a mapping file
