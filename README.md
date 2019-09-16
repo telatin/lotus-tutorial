@@ -13,6 +13,7 @@
  
 #### :sunglasses: Becoming a pro
  * [Create a custom taxonomical database](workshop/customdb.md)
+ * [Detect the target region](workshop/detect.md)
 
 ##  Documentation
  * :page_facing_up: [Lotus manual](docs/lotus.md)
