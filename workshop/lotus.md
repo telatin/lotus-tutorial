@@ -2,6 +2,8 @@
 
 ## What you need
 
+Generally speaking:
+
  * *Input sequences*: a set of sequences (coming from a metabarcoding experiment)
  * A *mapping file*: spreadsheet  with some information about each sample
 
@@ -10,7 +12,8 @@ An example is the demultiplexing of a sequencing run using a set of molecular ba
 
 The spreadsheet, usually referred to as _mapping file_, is the glue that links our reads to relevant information (e.g. a sample name, the treatment, ...)
 
-For this tutorial Lotus was already installed in the ~/lotus_pipeline/ directory.
+:bulb: For this tutorial Lotus was already installed in the ~/lotus_pipeline/ directory.
+The input dataset that we'll use first is the **diet** dataset: a set of 8 samples from mice gut microbiome, where 4 mice where fed with control diet (CD) and 4 were fed with High Fat Diet (HFD).
 
 ## Preparing a mapping file
 
