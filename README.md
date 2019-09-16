@@ -6,7 +6,7 @@ This repository contains some documentation and hands out notes (see below), as 
 
 This workshop focuses on a common triad of tasks: dealing with different input formats/technologies, propagating and making use of metadata (mapping files), and performing the 16S analysis itself.
 
-![topics](workshop/trio.png)
+[![Workshop slides](workshop/trio.png)](docs/slides.pdf)
 
 ## 16S analysis with Lotus
 
