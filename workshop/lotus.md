@@ -48,7 +48,7 @@ When you run Lotus:
 These can be used as input file for molecular ecology analysis, like the multi dimensional scale plot (for beta diversity):
 [example mds](../img/mds.png)
 
-## Going beyond the basics
+## :sunglasses: Going beyond the basics
 ### Customizing the parameters
 
 1. Try changing the default clustering algorithm from USEARCH to swarm
