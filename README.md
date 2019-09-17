@@ -21,6 +21,9 @@ This workshop focuses on a common triad of tasks: dealing with different input f
 #### :sunglasses: Becoming a pro
  * [Create a custom taxonomical database](workshop/customdb.md)
  * [Detect the target region](workshop/detect.md)
+ 
+#### :mag: Try each step manually
+ * [Manual USEARCH analysis](workshop/usearch.md)
 
 ##  Documentation
  * :page_facing_up: [Lotus manual](docs/lotus.md)
