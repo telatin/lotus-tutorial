@@ -23,7 +23,8 @@ sdm -map map.txt -i_path ./ -o_demultiplex demux/ -log demux/LOG -o_fna demux/al
 # Go in the datasets/miseq dir first! 
 # change "sdm" to the path to the program, if needed
 mkdir demux/
-sdm -i A739F.sm.1.fq,A739F.sm.2.fq -i_MID_fastq A739F.sm.mid.fq -paired 2 -o_demultiplex demux/ -log demux/LOG- -map miSeqMap.sm.txt
+sdm -i A739F.sm.1.fq,A739F.sm.2.fq -i_MID_fastq A739F.sm.mid.fq -paired 2 \
+ -o_demultiplex demux/ -log demux/LOG- -map miSeqMap.sm.txt
 ```
 #### Running Lotus with 454 Data
 
@@ -33,7 +34,10 @@ sdm -i A739F.sm.1.fq,A739F.sm.2.fq -i_MID_fastq A739F.sm.mid.fq -paired 2 -o_dem
 mkdir lotus_output
 lotus.pl -i ori/ -m map.txt   -o lotus_output -c path/to/lOTUs.cfg  -s 454_sdm.txt -simBasedTaxo 2
 ```
+
 #### Running Lotus with MiSeq Data
+The directory containing lotus.pl also contains _lOTUs.cfg_ and _sdm\_miSeq.txt_: change the command accordingly :)
+```
 # Go in the datasets/miseq dir first! 
 # Change "lotus.pl" with the relative or absolute PATH to lotus.pl
 mkdir lotus_output
