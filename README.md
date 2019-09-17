@@ -10,19 +10,34 @@ This workshop focuses on a common triad of tasks: dealing with different input f
 
 ## 16S analysis with Lotus
 
+If you need help connecting to a remote server, see  "[Connecting to a Linux server (ssh)](https://seq.space/notes/doku.php?id=bash-ssh)".
+
+Please, keep an eye at the **documentation** section below.
+
 #### :baby: First steps: running lotus
- * [Connecting to a Linux server (optional)](https://seq.space/notes/doku.php?id=bash-ssh)
+
+To begin your journey try running Lotus, first with default parameters then tweaking its behaviour
+
  * [Running Lotus](workshop/lotus.md)
  
 #### :open_file_folder: Preparing input from different sources
+
+Sadly, a big part of the 16S analysis pipelines is related to managing different file inputs and formats. If you plan to analyze datasets downloaded from (sometimes old) papers, try these:
+
  * [Demultiplex a 454 run](workshop/demux_454.md)
  * [Manual demultiplex an Illumina run](workshop/demux_illumina.md)
  
 #### :sunglasses: Becoming a pro
+
+This section contains a couple of more advanced topics:
+
  * [Create a custom taxonomical database](workshop/customdb.md)
  * [Detect the target region](workshop/detect.md)
  
 #### :mag: Try each step manually
+
+If you want to refresh the concepts presented, try a simplified workflow manually:
+
  * [Manual USEARCH analysis](workshop/usearch.md)
 
 ##  Documentation
