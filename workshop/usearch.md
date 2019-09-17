@@ -28,5 +28,20 @@ usearch -fastx_uniques filt.fa -relabel uniq -sizeout -fastaout uniq.fa
 usearch -unoise3 uniq.fa -zotus otus.fa
 ```
 :bulb: Can you replicate the same dereplication using *sdm*?
+
 :bulb: How many ASVs (OTUs, ZOTUs..) were identified?
+
+## Prepare the OTU table
+For this step we need to map all the input reads against the OTUs. Since we relabeled the reads in merged.fq, we can:
+
+```
+# Generate OTU table
+usearch  -otutab merged.fq -zotus otus.fa -otutabout zotutab.txt
+
+# Get statistics on the table
+usearch -otutab_stats otutable.txt -output report.txt
+
+# Rarefy the table at 1000 reads to have comparable numbers
+usearch -otutab_rare otutab.txt -sample_size 1500 -output otutab_norm.txt
+```
 
