@@ -11,6 +11,7 @@ This workshop focuses on a common triad of tasks: dealing with different input f
 ## 16S analysis with Lotus
 
 #### :baby: First steps: running lotus
+ * [Connecting to a Linux server (optional)](https://seq.space/notes/doku.php?id=bash-ssh)
  * [Running Lotus](workshop/lotus.md)
  
 #### :open_file_folder: Preparing input from different sources
