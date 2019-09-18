@@ -4,7 +4,6 @@ The directory containing lotus.pl also contains _lOTUs.cfg_ and _sdm\_miSeq.txt_
 ```
 # Go in the datasets/diet dir first! 
 # Change "lotus.pl" with the relative or absolute PATH to lotus.pl
-```
 mkdir lotus_output
 ~/lotus_pipeline/lotus.pl -c ~/lotus_pipeline/lOTUs.cfg -s ~/sdm_miSeq.txt -m lotus.map  -i reads -o lotus_output
 ```
