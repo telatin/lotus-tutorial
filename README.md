@@ -10,7 +10,11 @@ This workshop focuses on a common triad of tasks: dealing with different input f
 
 ## 16S analysis with Lotus
 
-If you need help connecting to a remote server, see  "[Connecting to a Linux server (ssh)](https://seq.space/notes/doku.php?id=bash-ssh)".
+If you need help connecting to a remote server, see  "[Connecting to a Linux server (ssh)](https://seq.space/notes/doku.php?id=bash-ssh)". If you use the EI training VM, you will find the lotus-training-master.zip archive in the ~/lotus_pipeline folder. Extract it with:
+```
+mkdir ~/16S/
+unzip ~/lotus_pipeline/lotus-training-master.zip -d ~/16S/
+```
 
 Please, keep an eye at the **documentation** section below.
 
