@@ -1,3 +1,7 @@
+# Workshopt notes
+
+:bulb: This page contains a "hints" on how to perform some of the analyses covered by the training. Each command must be adapted!
+
 ## The "Diet MiSeq" dataset
 
 The directory containing lotus.pl also contains _lOTUs.cfg_ and _sdm\_miSeq.txt_: change the command accordingly :)
