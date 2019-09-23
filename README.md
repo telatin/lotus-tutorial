@@ -23,6 +23,8 @@ Please, keep an eye at the **documentation** section below.
 To begin your journey try running Lotus, first with default parameters then tweaking its behaviour
 
  * [Running Lotus](workshop/lotus.md)
+   * [Installing Lotus](https://youtu.be/dr9wyotaolI)
+   * [Running Lotus](https://youtu.be/UP2tJQQIeBo)
  
 #### :open_file_folder: Preparing input from different sources
 
