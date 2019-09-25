@@ -14,7 +14,9 @@ The spreadsheet, usually referred to as _mapping file_, is the glue that links o
 
 :bulb: For this tutorial Lotus was already installed in the ~/lotus_pipeline/ directory.
 
-:floppy_disk: The input dataset that we'll use first is the **diet** dataset: a set of 8 samples from mice gut microbiome, where 4 mice where fed with control diet (CD) and 4 were fed with High Fat Diet (HFD).
+:floppy_disk: The input dataset that we'll use first is the **diet** dataset: a set of 8 samples from mice gut microbiome, where 4 mice where fed with control diet (CD) and 4 were fed with High Fat Diet (HFD). 
+
+The dataset comes from [this paper](https://onlinelibrary.wiley.com/doi/full/10.1002/mnfr.201500775).
 
 ## Preparing a mapping file
 
