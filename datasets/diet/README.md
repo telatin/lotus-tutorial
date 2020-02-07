@@ -7,7 +7,7 @@ We are going to analyze raw data from a 16S experiment using the [lOTUs pipeline
 
 ## Dataset
 
-We'll use the 16S reads from the paper [Gut barrier impairment by high<E2><80><90>fat diet in mice depends on housing conditions](https///onlinelibrary.wiley.com/doi/full/10.1002/mnfr.201500775) (Mueller 2015). The raw data can be downloaded from [ENA](https///www.ebi.ac.uk/ena/data/view/PRJEB13041).
+We'll use the 16S reads from the paper [Gut barrier impairment by high-fat diet in mice depends on housing conditions](https///onlinelibrary.wiley.com/doi/full/10.1002/mnfr.201500775) (Mueller 2015). The raw data can be downloaded from [ENA](https///www.ebi.ac.uk/ena/data/view/PRJEB13041).
 
 ### Metadata
 
