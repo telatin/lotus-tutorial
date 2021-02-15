@@ -7,7 +7,7 @@ We are going to analyze raw data from a 16S experiment using the [lOTUs pipeline
 
 ## Dataset
 
-We'll use the 16S reads from the paper [Gut barrier impairment by high-fat diet in mice depends on housing conditions](https///onlinelibrary.wiley.com/doi/full/10.1002/mnfr.201500775) (Mueller 2015). The raw data can be downloaded from [ENA](https///www.ebi.ac.uk/ena/data/view/PRJEB13041).
+We'll use the 16S reads from the paper [Gut barrier impairment by high-fat diet in mice depends on housing conditions](https///onlinelibrary.wiley.com/doi/full/10.1002/mnfr.201500775) (Mueller 2015). The raw data can be downloaded from [ENA](https://www.ebi.ac.uk/ena/data/view/PRJEB13041).
 
 ### Metadata
 
@@ -29,3 +29,39 @@ To start we need to check the sequencing depth (how many reads per sample), and 
 A common tool to perform this analysis is [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/), that produces a full report for generic NGS output (mainly whole genome sequencing). For amplicons a lot of sections will not be very useful (e.g. overrepresented *k*-mers are totally expected!).
 
 
+---
+
+## Download the full dataset
+
+List of samples:
+```text list.txt
+ERR1313793
+ERR1313794
+ERR1313795
+ERR1313796
+ERR1313797
+ERR1313798
+ERR1313799
+ERR1313800
+ERR1313801
+ERR1313802
+ERR1313803
+ERR1313804
+ERR1313805
+ERR1313806
+ERR1313807
+ERR1313808
+ERR1313809
+ERR1313810
+ERR1313811
+ERR1313812
+ERR1313813
+ERR1313814
+ERR1313815
+ERR1313816
+```
+
+Download:
+```
+for i in $(cat list.txt); do fastq-dump --split-3 $i; done
+```
