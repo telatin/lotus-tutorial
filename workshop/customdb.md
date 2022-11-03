@@ -34,7 +34,7 @@ The community of "bee researchers" have a long tradition of taxonomical classifi
 that does't completely match the classification found in commonly used databases like GreenGenes.
 They compiled their own database (BeeTax) that you can find in the [**workshop/bee_db** folder](https://github.com/telatin/lotus-tutorial/tree/master/datasets/bee_db).
 
-A nice feature of Lotus it the ease of use of custom datasets (see [documentation](../docs/lotus.md)).
+A nice feature of Lotus it the ease of use of custom datasets (see [documentation](../docs/lotus.md#taxonmomy-options)).
 
 1) Can you identify the required sequences and taxonomy annotations in the "Bee_DB" directory?
 2) Can you prepare a Lotus-friendly database out of those files?
