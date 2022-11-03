@@ -50,7 +50,7 @@ Please provide at least 3 arguments:
    - `1` : highmem mode which has much faster excecution speed but can require substantial amounts of ram (e.g. hiSeq: ~40GB). _default_
    - `0`: deactivates this, reducing memory requirements to < 4 GB
 
-###  Taxonmomy options 
+###  Taxonomy options 
 
  - **-TaxOnly** 
   skip most of the lotus pipeline and only run a taxonomic classification on a fasta file (provided via `-i` (could be an OTU fasta).
