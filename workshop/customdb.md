@@ -18,9 +18,12 @@ ACACGACGTAGGTAGCTAGCTGATCGATCGTAGCTAGCTGAC
 ACGTAGCTAGGATCGATCTAACCCAGCTGATCGATCGATCGA
 ```
 
-It is more common to have two separate files: one with the sequences (FASTA) and one with the taxonomy in a two-columns tabula format like:
+It is more common to have two separate files:
+one with the sequences (FASTA) and
+one with the taxonomy in a two-columns format like:
 
 ```
+#ID       Taxonomy
 A000001   d:Bacteria,p:Bacteroidetes;c:Bacteroidia,o:Bacteroidales,g:Bacteroides
 A000002   d:Bacteria,p:Firmicutes,c:Clostridia,o:Clostridiales,f:Lachnospiraceae,g:Roseburia
 ```
